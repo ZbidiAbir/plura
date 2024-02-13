@@ -186,7 +186,7 @@ const SubAccountDetails: React.FC<SubAccountDetailsProps> = ({
                                 name="companyEmail"
                                 render={({ field }) => (
                                     <FormItem className="flex-1">
-                                        <FormLabel>Account Email</FormLabel>
+                                        <FormLabel>Acount Email</FormLabel>
                                         <FormControl>
                                             <Input
                                                 placeholder="Email"
@@ -205,7 +205,7 @@ const SubAccountDetails: React.FC<SubAccountDetailsProps> = ({
                                 name="companyPhone"
                                 render={({ field }) => (
                                     <FormItem className="flex-1">
-                                        <FormLabel>Account Phone Number</FormLabel>
+                                        <FormLabel>Acount Phone Number</FormLabel>
                                         <FormControl>
                                             <Input
                                                 placeholder="Phone"
@@ -324,4 +324,4 @@ const SubAccountDetails: React.FC<SubAccountDetailsProps> = ({
     )
 }
 
-export default SubAccountDetails 
+export default SubAccountDetails
